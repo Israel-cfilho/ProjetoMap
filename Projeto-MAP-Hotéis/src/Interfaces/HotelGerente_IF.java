@@ -1,6 +1,6 @@
 package Interfaces;
 
-import projeto.map.hoteis.Hotel;
+import com.mycompany.projeto.map.hoteis.Hotel;
 
 public interface HotelGerente_IF {
     public void cadastrarHotel(Hotel hotel);

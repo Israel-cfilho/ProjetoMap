@@ -1,6 +1,6 @@
 package Interfaces;
 
-import projeto.map.hoteis.Hotel;
+import com.mycompany.projeto.map.hoteis.Hotel;
 
 public interface Factory_IF {
     public boolean isReservado(int idQuarto, Hotel hotel);

@@ -1,10 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package Interfaces;
 
-import projeto.map.hoteis.Hotel;
+import com.mycompany.projeto.map.hoteis.Hotel;
 
 public interface Quarto_IF {
     public boolean isReservado(int idQuarto, Hotel hotel);
