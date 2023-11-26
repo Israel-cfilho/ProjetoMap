@@ -24,9 +24,10 @@ public class Hotel{
     }
 
     public void getQuartosDisponiveis(Hotel hotel) {
+        System.out.println("\nQuartos disponíveis do "+ hotel.getNome());
         for (Quarto quarto : hotel.quartos) {
             if (!quarto.isReservado(quarto.getNumero(),hotel)) {
-                System.out.println(quarto.getNumero());
+                System.out.print(quarto.getNumero()+" ");
             }
         }
     }

@@ -30,6 +30,7 @@ public class Quarto implements Factory_IF {
 
     @Override
     public void reservar(int idQuarto, Hotel hotel) {
+          System.out.println("\n");
           if(hotel.isEmpty(hotel.getIdHotel())){
              System.out.println("Quarto não existente");
              return;
@@ -52,9 +53,10 @@ public class Quarto implements Factory_IF {
            return;
        }
           for (Quarto quartoSelecionado : hotel.getQuartos()) {
+              System.out.println("\n");
              if(quartoSelecionado.getNumero() == idQuarto && reservado == true){
                  reservado = false;
-                 System.out.println("Quarto com reservado cancelada!");
+                 System.out.println("Quarto "+idQuarto+" reservado no hotel "+hotel.getNome()+" foi cancelado");
                  return;
              }
          }

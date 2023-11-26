@@ -76,6 +76,7 @@ public class HotelGerente implements HotelGerente_IF{
     
     @Override
     public void hoteisDisponiveis() {
+        System.out.println("Hoteis Disponíveis: ");
         for (Hotel hotel : hoteis) {
             System.out.println(hotel.getNome());
         } 
