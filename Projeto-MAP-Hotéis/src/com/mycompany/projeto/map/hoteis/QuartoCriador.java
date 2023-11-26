@@ -1,10 +1,8 @@
 package com.mycompany.projeto.map.hoteis;
 
-//CRIADOR CONCRETO
+//classe CRIADOR CONCRETO, seguindo padrão factory
 
 import Interfaces.Factory_IF; 
-
-
 
 public class QuartoCriador extends CriadorFactory {
       @Override

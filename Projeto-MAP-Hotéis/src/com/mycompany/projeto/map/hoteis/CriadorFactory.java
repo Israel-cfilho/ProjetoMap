@@ -1,6 +1,7 @@
 package com.mycompany.projeto.map.hoteis;
+
 import Interfaces.Factory_IF;
-//CRIADOR BASE
+//CRIADOR BASE,seguindo padrão factory
 public abstract class CriadorFactory{
 
   public Quarto criarQuarto(int numero, String classificacao, float preco) {
