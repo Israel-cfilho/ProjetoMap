@@ -1,7 +1,7 @@
 package com.mycompany.projeto.map.hoteis;
 
 import Interfaces.Factory_IF;
-
+//Classe CONCRETE PRODUCT de quarto, seguindo padrão factory
 public class Quarto implements Factory_IF {
     private int numero;
     private String classificacao;
