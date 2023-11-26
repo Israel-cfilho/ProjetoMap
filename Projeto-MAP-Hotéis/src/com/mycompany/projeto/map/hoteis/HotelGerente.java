@@ -4,8 +4,9 @@ import Interfaces.HotelGerente_IF;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HotelGerente {
-     private static HotelGerente instance;
+public class HotelGerente implements HotelGerente_IF{
+    
+    private static HotelGerente instance;
     final List<Hotel> hoteis;
     private final QuartoCriador quartoFactory; // Usar a fábrica para criar quartos
     
